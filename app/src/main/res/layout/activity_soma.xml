@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2a3342"
+    tools:context=".Adicao">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/titulo3"
+        android:text="ADIÇÃO"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/tituloVisor"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnCalcular"
+        android:text="="
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/input3"
+        app:layout_constraintHorizontal_bias="0.238"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/input1"
+        app:layout_constraintVertical_bias="0.442"
+        style="@style/btnCalcular" />
+
+    <EditText
+        android:id="@+id/input3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/input2"
+        app:layout_constraintVertical_bias="0.442"
+        style="@style/inputResultado" />
+
+    <EditText
+        android:id="@+id/input2"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titulo3"
+        style="@style/input" />
+
+    <EditText
+        android:id="@+id/input1"
+        app:layout_constraintEnd_toStartOf="@+id/textView"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titulo3"
+        style="@style/input" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:text="+"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/input2"
+        app:layout_constraintTop_toBottomOf="@+id/titulo3"
+        app:layout_constraintVertical_bias="0.198"
+        style="@style/sinalText" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

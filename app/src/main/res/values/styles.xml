@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="btnOperacao">
+        <item name="android:layout_width">160dp</item>
+        <item name="android:layout_height">160dp</item>
+        <item name="android:width">100px</item>
+        <item name="android:background">#D95BFF</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">60sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="labelOperacao">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="tituloVisor">
+        <item name="android:layout_width">378dp</item>
+        <item name="android:layout_height">121dp</item>
+        <item name="android:layout_marginTop">28dp</item>
+        <item name="android:shadowColor">@color/black</item>
+        <item name="android:textColor">@android:color/holo_green_dark</item>
+        <item name="android:textSize">50sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="input">
+        <item name="android:layout_width">160dp</item>
+        <item name="android:layout_height">160dp</item>
+        <item name="android:layout_marginTop">60dp</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:ems">10</item>
+        <item name="android:inputType">numberDecimal</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@android:color/holo_green_dark</item>
+        <item name="android:textSize">48sp</item>
+    </style>
+
+    <style name="btnCalcular">
+        <item name="android:layout_width">160dp</item>
+        <item name="android:layout_height">160dp</item>
+        <item name="android:background">#D95BFF</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="inputResultado">
+        <item name="android:layout_width">160dp</item>
+        <item name="android:layout_height">160dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:background">@android:color/holo_orange_dark</item>
+        <item name="android:ems">10</item>
+        <item name="android:inputType">numberDecimal</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">48sp</item>
+    </style>
+
+    <style name="sinalText">
+        <item name="android:layout_width">32dp</item>
+        <item name="android:layout_height">59dp</item>
+        <item name="android:layout_marginEnd">12dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">60sp</item>
+        <item name="android:textAlignment">center</item>
+
+    </style>
+</resources>
